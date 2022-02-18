@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+
+      
+        <link rel="stylesheet" href="static/css/output.css">
+</head>
+<body class="m-0 p-0 box-border">
+
+
+
+        <section class=" relative  w-full h-screen flex-col items-center duration-1000 flex justify-center">
+            
+            <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
+             <div class="overlay absolute top-0 h-screen w-full  bg-gray-900 bg-opacity-80 bg-blend-overlay"></div>
+            <!-- Welcome section -->
+            <div class="relative w-full p-5 h-screen  lg:h-96 flex flex-col flex-wrap items-center justify-center">
+                <h1 class="text-3xl lg:text-2xl text-center font-bold uppercase text-gray-100 xl:text-4xl mb-5">Welcome To  </h1>
+                <h1 class="text-4xl text-center text-red-600 lg:text-7xl uppercase bg-gray-300 rounded-md   font-extrabold md:p-4 p-2
+                ">Enterprenuer Hub</h1>
+                
+            
+                <!-- Link Button -->
+                
+                   <div class="w-full text-center">
+                    <a href="{% url 'home' %}" class="lg:text-center mt-16 text-sm uppercase tracking-wide duration-100 ease-in bg-red-700 text-white p-2 sm:  font-normal inline-block text-xm sm:text-sm hover:shadow-red-100/10 hover:shadow-md rounded">Learn more</a>
+                   </div>
+
+                   <ul class="fixed bottom-5">
+                    <li class="inline-block mr-10 transform   duration-500   rounded full   ">
+                        <a class="text-2xl flex items-center justify-center text-white  hover:bg-red-700  rounded-full w-10 h-10" href="#!"><i class="  fab fa-twitter"></i></a>
+                    </li>
+                    <li class="inline-block mr-10 transform   duration-500  rounded full   ">
+                        <a class="text-2xl flex items-center justify-center text-white hover:bg-red-700  rounded-full w-10 h-10" href="#!"><i class="  fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="inline-block mr-10 transform   duration-500  rounded full   ">
+                        <a class="text-2xl flex items-center justify-center text-white hover:bg-red-700  rounded-full w-10 h-10" href="#!"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="inline-block mr-10 transform duration-500  rounded full   ">
+                        <a class="text-2xl flex items-center justify-center text-white hover:bg-red-700 rounded-full w-10 h-10  href="https://chat.whatsapp.com/IBN2dk7JOs51PCaHO84hso"><i class=" fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+      </main>
+</body>
+</html>
+      
